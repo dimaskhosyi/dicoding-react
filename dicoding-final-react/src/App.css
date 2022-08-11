@@ -1,0 +1,76 @@
+* {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: #A5C9CA;
+  min-height: 100vh;
+}
+
+.header-background {
+  background-color: #2C3333;
+  color: #E7F6F2;
+  line-height: 50px;
+  padding: 10px;
+}
+
+.header-button {
+  background-color: #A5C9CA;
+  color: #395B64;
+  font-weight: bold;
+}
+
+.note-detail {
+  height: 120px;
+  font-size: small;
+  font-weight: 500;
+}
+
+input[type="text"],
+textarea[class="form-control"] {
+  background-color: #E7F6F2;
+}
+
+.note-title {
+  width: auto;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+textarea {
+  height: 150px;
+}
+
+.form-layout {
+  color: #2C3333;
+}
+
+.form-layout h4,
+.note-card h5 {
+  font-weight: 700;
+}
+
+.note-card .note-date {
+  font-weight: lighter;
+}
+
+.form-button,
+.note-card {
+  background-color: #2C3333;
+  color: #E7F6F2;
+}
+
+.breadcrumb .current1 {
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 991px) {
+  .form-out {
+    border-right: 1px solid #2C3333;
+  }
+}
